@@ -1,5 +1,4 @@
 import { SectionHeading } from "./section-heading"
-import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import StarBorder from "./StarBorder"
 

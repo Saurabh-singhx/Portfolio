@@ -52,14 +52,6 @@ export function Hero() {
           <div className="grid gap-6 md:grid-cols-2 md:gap-10">
             <div className="flex flex-col gap-4">
               <TextType
-                text={[
-                  "Full-Stack Developer",
-                  "Backend Developer",
-                  "Problem Solver",
-                  "Open-Source Contributor",
-                  "Future Software Engineer"
-                ]}
-
                 typingSpeed={75}
                 pauseDuration={1500}
                 showCursor={true}
