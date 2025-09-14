@@ -53,8 +53,8 @@ export function ContactSection() {
                 <StarBorder
                   as="button"
                   className="custom-class cursor-pointer"
-                  color="#05517aff"
-                  speed="3s"
+                  color="white "
+                  speed="2s"
                   thickness={3}
                 >
                   send message

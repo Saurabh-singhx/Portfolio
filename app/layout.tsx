@@ -3,6 +3,7 @@ import type { Metadata } from "next"
 import "./globals.css"
 import { Montserrat, Open_Sans } from "next/font/google"
 import { Suspense } from "react"
+import { Analytics } from "@vercel/analytics/next"
 
 export const metadata: Metadata = {
   title: "Saurabh's Portfolio",
@@ -31,7 +32,9 @@ export default function RootLayout({
     <html lang="en" className={`${openSans.variable} ${montserrat.variable} dark antialiased`}>
       <body className="font-sans">
         <Suspense fallback={<div>Loading...</div>}>{children}</Suspense>
+        <Analytics/>
       </body>
+      
     </html>
   )
 }

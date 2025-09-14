@@ -51,7 +51,7 @@ export function ProjectsSection() {
             color="#7df9ff"
             speed={1}
             chaos={0.3}
-            thickness={2}
+            thickness={1}
             style={{ borderRadius: 16 }}
           >
             <article className="rounded-lg border border-border p-4">
